@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Aileron-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/Aileron-Regular") format("opentype");
+  }
+  @font-face {
+    font-family: "Aileron-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/Aileron-Bold") format("truetype");
+  }
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
+  .settings {
+    align-items: flex-start;
+    background-color: var(--shark);
+    border: 1px none;
+    display: flex;
+    height: 1024px;
+    padding: 165px 86px;
+    width: 1440px;
+  }
+  
+  .overlap-group2 {
+    height: 601px;
+    position: relative;
+    width: 1187px;
+  }
+  
+  .overlap-group1 {
+    height: 773px;
+    left: 0;
+    position: absolute;
+    top: -39px;
+    width: 1228px;
+  }
+  
+  .menu-icon-top-right {
+    height: 37px;
+    left: 1150px;
+    position: absolute;
+    top: 49px;
+    width: 37px;
+  }
+  
+  .background {
+    background-color: var(--cape-cod-2);
+    border-radius: 18px;
+    height: 773px;
+    left: 40px;
+    position: absolute;
+    top: 0;
+    width: 1188px;
+  }
+  
+  .sidebar-menu {
+    align-items: center;
+    background-color: var(--green-haze);
+    border-radius: 18px;
+    box-shadow: 4px 4px 4px #009e4d1c, 40px 40px 80px #009e4d40;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 509px;
+    padding: 63px 12px;
+    position: absolute;
+    top: 131px;
+    width: 80px;
+  }
+  
+  .dashboard-icon {
+    height: 42px;
+    margin-top: 7px;
+    width: 42px;
+  }
+  
+  .sidebar-menu-item {
+    height: 42px;
+    margin-top: 40px;
+    width: 42px;
+  }
+  
+  .overlap-group {
+    align-items: flex-end;
+    align-self: flex-start;
+    background-color: var(--black-2);
+    border-radius: 27.5px;
+    display: flex;
+    height: 55px;
+    justify-content: flex-end;
+    margin-top: 33px;
+    min-width: 55px;
+    padding: 9.5px;
+  }
+  
+  .icon-settings {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .schneider-electric-logo {
+    height: 56px;
+    left: 80px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 186px;
+  }
+  
+  .place {
+    left: 888px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px
+  }
+  
+  .support {
+    left: 956px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+  }
+  
+  .my-account {
+    left: 1039px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px
+  }
+  
+  .page-title {
+    left: 366px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+  }
+  
